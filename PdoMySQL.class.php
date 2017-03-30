@@ -352,7 +352,7 @@ class PdoMySQL{
 		}
 	}
 	/**
-	 释放结果集
+	 * 释放结果集
 	 */
 	public static function free(){
 		self::$PDOStatement=null;
